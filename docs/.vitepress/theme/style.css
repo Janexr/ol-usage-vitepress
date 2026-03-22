@@ -1,0 +1,4 @@
+@import url('ol/ol.css');
+.vitepress-demo-plugin-preview {
+    position: relative;
+}

@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenLayers 实战笔记系统 V1.1 用户手册</title>
+    <style>
+        body { font-family: 'Microsoft YaHei', sans-serif; line-height: 1.6; margin: 40px; }
+        h1, h2, h3 { color: #333; }
+        h1 { text-align: center; border-bottom: 2px solid #333; padding-bottom: 10px; }
+        h2 { border-bottom: 1px solid #ccc; padding-bottom: 5px; margin-top: 30px; }
+        pre { background: #f4f4f4; padding: 10px; border-left: 4px solid #ccc; overflow-x: auto; }
+        code { background: #f4f4f4; padding: 2px 4px; }
+        table { border-collapse: collapse; width: 100%; margin: 20px 0; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+        .page-break { page-break-before: always; }
+        .note { background: #e7f3ff; padding: 10px; border-left: 4px solid #007acc; margin: 10px 0; }
+        .warning { background: #fff3cd; padding: 10px; border-left: 4px solid #ffc107; margin: 10px 0; }
+    </style>
+</head>
+<body>
+
+<h1>OpenLayers 实战笔记系统 V1.1 用户手册</h1>
+
+<h2>文档信息</h2>
+<ul>
+    <li><strong>软件名称</strong>: OpenLayers 实战笔记系统</li>
+    <li><strong>版本号</strong>: 1.1.0</li>
+    <li><strong>发布日期</strong>: 2026年3月21日</li>
+    <li><strong>适用对象</strong>: OpenLayers开发者、GIS爱好者</li>
+</ul>
+
+<h2>目录</h2>
+<ol>
+    <li><a href="#intro">引言</a></li>
+    <li><a href="#overview">软件概述</a></li>
+    <li><a href="#install">安装指南</a></li>
+    <li><a href="#quickstart">快速开始</a></li>
+    <li><a href="#features">功能使用说明</a></li>
+    <li><a href="#style-format">Style格式说明</a></li>
+    <li><a href="#faq">常见问题</a></li>
+    <li><a href="#support">技术支持</a></li>
+</ol>
+
+<div class="page-break"></div>
+
+<h2 id="intro">引言</h2>
+
+<h3>目的</h3>
+<p>本用户手册旨在帮助用户快速了解和使用OpenLayers 实战笔记系统。通过本手册，您将学会如何安装、配置和使用系统的各项功能。</p>
+
+<h3>适用范围</h3>
+<p>本手册适用于OpenLayers 实战笔记系统的所有用户，包括初学者和有经验的开发者。</p>
+
+<h3>约定</h3>
+<ul>
+    <li><strong>粗体</strong>: 表示重要概念或按钮名称</li>
+    <li><em>斜体</em>: 表示强调或引用</li>
+    <li><code>代码</code>: 表示代码片段或命令</li>
+    <li><div class="note">提示</div>: 提供额外信息或建议</li>
+    <li><div class="warning">警告</div>: 指出潜在问题或重要注意事项</li>
+</ul>
+
+<div class="page-break"></div>
+
+<h2 id="overview">软件概述</h2>
+
+<h3>什么是OpenLayers 实战笔记系统</h3>
+<p>OpenLayers 实战笔记系统是一个基于OpenLayers库的WebGIS应用教程平台。它提供了丰富的地图展示、图层管理、图形绘制等功能，帮助开发者快速掌握OpenLayers的使用方法。</p>
+
+<h3>主要特点</h3>
+<ul>
+    <li><strong>易于学习</strong>: 提供详细的教程和示例代码</li>
+    <li><strong>功能丰富</strong>: 支持多种地图服务和图层类型</li>
+    <li><strong>交互友好</strong>: 提供直观的界面和操作方式</li>
+    <li><strong>开源免费</strong>: 基于开源技术构建，无需付费</li>
+</ul>
+
+<h3>系统要求</h3>
+<table>
+    <tr>
+        <th>组件</th>
+        <th>最低要求</th>
+        <th>推荐配置</th>
+    </tr>
+    <tr>
+        <td>操作系统</td>
+        <td>Windows 7 / macOS 10.12 / Linux</td>
+        <td>Windows 10 / macOS 10.14 / Ubuntu 18.04+</td>
+    </tr>
+    <tr>
+        <td>浏览器</td>
+        <td>Chrome 70 / Firefox 65 / Safari 12 / Edge 79</td>
+        <td>Chrome 90+ / Firefox 88+ / Safari 14+ / Edge 90+</td>
+    </tr>
+    <tr>
+        <td>内存</td>
+        <td>2GB RAM</td>
+        <td>4GB RAM+</td>
+    </tr>
+    <tr>
+        <td>存储空间</td>
+        <td>100MB</td>
+        <td>500MB+</td>
+    </tr>
+    <tr>
+        <td>网络</td>
+        <td>宽带连接</td>
+        <td>高速互联网</td>
+    </tr>
+</table>
+
+<div class="page-break"></div>
+
+<h2 id="install">安装指南</h2>
+
+<h3>在线访问</h3>
+<p>OpenLayers 实战笔记系统是一个Web应用，无需安装即可使用。</p>
+
+<ol>
+    <li>打开浏览器</li>
+    <li>访问系统网址：<code>https://your-domain.com</code>（替换为实际域名）</li>
+    <li>开始使用</li>
+</ol>
+
+<h3>本地部署（开发者选项）</h3>
+<p>如果您是开发者，想要本地运行和修改系统，请按照以下步骤操作：</p>
+
+<h4>环境准备</h4>
+<ul>
+    <li>安装Node.js 16.0.0或更高版本</li>
+    <li>安装Git</li>
+</ul>
+
+<h4>下载源码</h4>
+<pre><code class="language-bash">git clone https://github.com/your-username/ol-usage-vitepress.git
+cd ol-usage-vitepress
+</code></pre>
+
+<h4>安装依赖</h4>
+<pre><code class="language-bash">npm install
+</code></pre>
+
+<h4>启动开发服务器</h4>
+<pre><code class="language-bash">npm run dev
+</code></pre>
+
+<p>启动后，在浏览器中访问 <code>http://localhost:5173</code> 即可看到系统运行。</p>
+
+<div class="page-break"></div>
+
+<h2 id="quickstart">快速开始</h2>
+
+<h3>浏览教程</h3>
+<p>首次使用OpenLayers 实战笔记系统时，建议从"开始"章节入手：</p>
+
+<ol>
+    <li>点击顶部导航栏的<strong>开始</strong></li>
+    <li>阅读<strong>介绍</strong>页面，了解系统概况</li>
+    <li>查看<strong>安装</strong>指南（如果需要本地部署）</li>
+    <li>跟随<strong>快速上手</strong>教程，创建您的第一个地图</li>
+</ol>
+
+<h3>创建您的第一个地图</h3>
+<p>以下是一个简单的示例，展示如何在网页中嵌入OpenLayers地图：</p>
+
+<pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;我的第一个OpenLayers地图&lt;/title&gt;
+    &lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@v8.2.0/ol.css"&gt;
+    &lt;script src="https://cdn.jsdelivr.net/npm/ol@v8.2.0/dist/ol.js"&gt;&lt;/script&gt;
+    &lt;style&gt;
+        #map {
+            width: 100%;
+            height: 400px;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div id="map"&gt;&lt;/div&gt;
+    &lt;script&gt;
+        const map = new ol.Map({
+            target: 'map',
+            layers: [
+                new ol.layer.Tile({
+                    source: new ol.source.OSM()
+                })
+            ],
+            view: new ol.View({
+                center: ol.proj.fromLonLat([0, 0]),
+                zoom: 2
+            })
+        });
+    &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<div class="note">
+    <strong>提示：</strong>这个示例使用了CDN加载OpenLayers库。您也可以通过npm安装本地使用。
+</div>
+
+<div class="page-break"></div>
+
+<h2 id="features">功能使用说明</h2>
+
+<h3>底图功能</h3>
+
+<h4>在线地图</h4>
+<p>系统支持多种在线地图服务：</p>
+
+<ul>
+    <li><strong>OpenStreetMap</strong>: 免费的开源地图数据</li>
+    <li><strong>百度地图</strong>: 国内常用的地图服务</li>
+    <li><strong>高德地图</strong>: 提供丰富的POI数据</li>
+</ul>
+
+<p><strong>使用步骤：</strong></p>
+<ol>
+    <li>进入<strong>底图 > 在线地图</strong>页面</li>
+    <li>选择所需的地图服务</li>
+    <li>查看代码示例并复制到您的项目中</li>
+</ol>
+
+<h4>ArcGIS服务</h4>
+<p>集成Esri的ArcGIS在线服务：</p>
+
+<ul>
+    <li>世界影像地图</li>
+    <li>地形图</li>
+    <li>街道地图</li>
+</ul>
+
+<p><strong>配置方法：</strong></p>
+<pre><code class="language-javascript">import TileLayer from 'ol/layer/Tile';
+import TileArcGISRest from 'ol/source/TileArcGISRest';
+
+const arcgisLayer = new TileLayer({
+    source: new TileArcGISRest({
+        url: 'https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer'
+    })
+});
+</code></pre>
+
+<h4>矢量切片</h4>
+<p>矢量切片技术可以提供更快的地图加载速度和更好的视觉效果。</p>
+
+<p><strong>优势：</strong></p>
+<ul>
+    <li>数据量小，加载快</li>
+    <li>支持高分辨率显示</li>
+    <li>样式可定制</li>
+</ul>
+
+<p><strong>使用示例：</strong></p>
+<pre><code class="language-javascript">import VectorTileLayer from 'ol/layer/VectorTile';
+import VectorTileSource from 'ol/source/VectorTile';
+import MVT from 'ol/format/MVT';
+
+const vectorTileLayer = new VectorTileLayer({
+    source: new VectorTileSource({
+        format: new MVT(),
+        url: 'https://your-vector-tile-server/{z}/{x}/{y}.pbf'
+    })
+});
+</code></pre>
+
+<h4>静态图片图层</h4>
+<p>加载自定义的静态图片作为地图图层：</p>
+
+<pre><code class="language-javascript">import ImageLayer from 'ol/layer/Image';
+import Static from 'ol/source/ImageStatic';
+
+const imageLayer = new ImageLayer({
+    source: new Static({
+        url: 'path/to/your/image.png',
+        imageExtent: [minX, minY, maxX, maxY]
+    })
+});
+</code></pre>
+
+<h4>SVG图层</h4>
+<p>使用SVG格式的矢量图形作为地图图层：</p>
+
+<pre><code class="language-javascript">import ImageLayer from 'ol/layer/Image';
+import ImageCanvas from 'ol/source/ImageCanvas';
+
+const svgLayer = new ImageLayer({
+    source: new ImageCanvas({
+        canvasFunction: function(extent, resolution, pixelRatio, size, projection) {
+            // SVG渲染逻辑
+        }
+    })
+});
+</code></pre>
+
+<h3>图形功能</h3>
+
+<h4>坐标数据格式</h4>
+<p>OpenLayers支持多种坐标数据格式：</p>
+
+<ul>
+    <li><strong>GeoJSON</strong>: 标准的地理数据交换格式</li>
+    <li><strong>KML</strong>: Google Earth使用的格式</li>
+    <li><strong>GPX</strong>: GPS数据交换格式</li>
+</ul>
+
+<h4>样式配置</h4>
+<p>为地图要素配置视觉样式：</p>
+
+<ul>
+    <li><strong>填充样式</strong>: 颜色、透明度</li>
+    <li><strong>描边样式</strong>: 颜色、宽度、线型</li>
+    <li><strong>图标样式</strong>: 图片、尺寸、锚点</li>
+</ul>
+
+<p><strong>样式示例：</strong></p>
+<pre><code class="language-javascript">import Style from 'ol/style/Style';
+import Fill from 'ol/style/Fill';
+import Stroke from 'ol/style/Stroke';
+
+const style = new Style({
+    fill: new Fill({
+        color: 'rgba(255, 255, 255, 0.5)'
+    }),
+    stroke: new Stroke({
+        color: '#ff0000',
+        width: 2
+    })
+});
+</code></pre>
+
+<div class="page-break"></div>
+
+<h2 id="style-format">Style格式说明</h2>
+
+<h3>Style对象概述</h3>
+<p>OpenLayers中的样式（Style）用于控制地图要素的视觉外观。每个几何要素都可以通过Style对象定义其填充、描边、图像等属性。</p>
+
+<h3>基本样式属性</h3>
+
+<h4>Fill（填充）</h4>
+<p>定义几何要素的填充样式：</p>
+
+<table>
+    <tr>
+        <th>属性</th>
+        <th>类型</th>
+        <th>描述</th>
+        <th>示例</th>
+    </tr>
+    <tr>
+        <td>color</td>
+        <td>string | CanvasPattern | CanvasGradient</td>
+        <td>填充颜色，支持CSS颜色值、渐变或图案</td>
+        <td>'red', '#ff0000', 'rgba(255,0,0,0.5)'</td>
+    </tr>
+</table>
+
+<p><strong>使用示例：</strong></p>
+<pre><code class="language-javascript">import Fill from 'ol/style/Fill';
+
+const fill = new Fill({
+    color: 'rgba(255, 255, 255, 0.5)'  // 半透明白色填充
+});
+</code></pre>
+
+<h4>Stroke（描边）</h4>
+<p>定义几何要素的描边样式：</p>
+
+<table>
+    <tr>
+        <th>属性</th>
+        <th>类型</th>
+        <th>描述</th>
+        <th>示例</th>
+    </tr>
+    <tr>
+        <td>color</td>
+        <td>string | CanvasPattern | CanvasGradient</td>
+        <td>描边颜色</td>
+        <td>'#ff0000'</td>
+    </tr>
+    <tr>
+        <td>width</td>
+        <td>number</td>
+        <td>描边宽度（像素）</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>lineCap</td>
+        <td>string</td>
+        <td>线段端点样式</td>
+        <td>'butt', 'round', 'square'</td>
+    </tr>
+    <tr>
+        <td>lineJoin</td>
+        <td>string</td>
+        <td>线段连接样式</td>
+        <td>'bevel', 'round', 'miter'</td>
+    </tr>
+    <tr>
+        <td>lineDash</td>
+        <td>Array&lt;number&gt;</td>
+        <td>虚线样式</td>
+        <td>[5, 5]</td>
+    </tr>
+    <tr>
+        <td>miterLimit</td>
+        <td>number</td>
+        <td>斜接限制</td>
+        <td>10</td>
+    </tr>
+</table>
+
+<p><strong>使用示例：</strong></p>
+<pre><code class="language-javascript">import Stroke from 'ol/style/Stroke';
+
+const stroke = new Stroke({
+    color: '#ff0000',
+    width: 2,
+    lineDash: [5, 5]  // 虚线样式
+});
+</code></pre>
+
+<h4>Image（图像）</h4>
+<p>定义点要素的图像样式：</p>
+
+<h5>Circle（圆形）</h5>
+<table>
+    <tr>
+        <th>属性</th>
+        <th>类型</th>
+        <th>描述</th>
+        <th>示例</th>
+    </tr>
+    <tr>
+        <td>radius</td>
+        <td>number</td>
+        <td>圆形半径</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>fill</td>
+        <td>Fill</td>
+        <td>填充样式</td>
+        <td>new Fill({color: 'red'})</td>
+    </tr>
+    <tr>
+        <td>stroke</td>
+        <td>Stroke</td>
+        <td>描边样式</td>
+        <td>new Stroke({color: 'black', width: 1})</td>
+    </tr>
+</table>
+
+<p><strong>使用示例：</strong></p>
+<pre><code class="language-javascript">import Circle from 'ol/style/Circle';
+
+const circleStyle = new Circle({
+    radius: 5,
+    fill: new Fill({color: 'red'}),
+    stroke: new Stroke({color: 'black', width: 1})
+});
+</code></pre>
+
+<h5>Icon（图标）</h5>
+<table>
+    <tr>
+        <th>属性</th>
+        <th>类型</th>
+        <th>描述</th>
+        <th>示例</th>
+    </tr>
+    <tr>
+        <td>src</td>
+        <td>string</td>
+        <td>图标图片URL</td>
+        <td>'marker.png'</td>
+    </tr>
+    <tr>
+        <td>anchor</td>
+        <td>Array&lt;number&gt;</td>
+        <td>锚点位置 [x, y]，范围0-1</td>
+        <td>[0.5, 1]</td>
+    </tr>
+    <tr>
+        <td>scale</td>
+        <td>number</td>
+        <td>缩放比例</td>
+        <td>1.5</td>
+    </tr>
+    <tr>
+        <td>rotation</td>
+        <td>number</td>
+        <td>旋转角度（弧度）</td>
+        <td>Math.PI / 4</td>
+    </tr>
+    <tr>
+        <td>opacity</td>
+        <td>number</td>
+        <td>透明度 0-1</td>
+        <td>0.8</td>
+    </tr>
+</table>
+
+<p><strong>使用示例：</strong></p>
+<pre><code class="language-javascript">import Icon from 'ol/style/Icon';
+
+const iconStyle = new Icon({
+    src: 'marker.png',
+    anchor: [0.5, 1],  // 底部中心为锚点
+    scale: 0.5
+});
+</code></pre>
+
+<h3>Text（文本）</h3>
+<p>为要素添加文本标签：</p>
+
+<table>
+    <tr>
+        <th>属性</th>
+        <th>类型</th>
+        <th>描述</th>
+        <th>示例</th>
+    </tr>
+    <tr>
+        <td>text</td>
+        <td>string</td>
+        <td>文本内容</td>
+        <td>'Hello World'</td>
+    </tr>
+    <tr>
+        <td>font</td>
+        <td>string</td>
+        <td>字体样式</td>
+        <td>'12px Arial'</td>
+    </tr>
+    <tr>
+        <td>fill</td>
+        <td>Fill</td>
+        <td>文本填充颜色</td>
+        <td>new Fill({color: 'black'})</td>
+    </tr>
+    <tr>
+        <td>stroke</td>
+        <td>Stroke</td>
+        <td>文本描边</td>
+        <td>new Stroke({color: 'white', width: 2})</td>
+    </tr>
+    <tr>
+        <td>offsetX</td>
+        <td>number</td>
+        <td>水平偏移</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td>offsetY</td>
+        <td>number</td>
+        <td>垂直偏移</td>
+        <td>-10</td>
+    </tr>
+    <tr>
+        <td>textAlign</td>
+        <td>string</td>
+        <td>文本对齐</td>
+        <td>'center', 'left', 'right'</td>
+    </tr>
+    <tr>
+        <td>textBaseline</td>
+        <td>string</td>
+        <td>文本基线</td>
+        <td>'middle', 'top', 'bottom'</td>
+    </tr>
+</table>
+
+<p><strong>使用示例：</strong></p>
+<pre><code class="language-javascript">import Text from 'ol/style/Text';
+
+const textStyle = new Text({
+    text: '标注文本',
+    font: '12px Arial',
+    fill: new Fill({color: 'black'}),
+    stroke: new Stroke({color: 'white', width: 2}),
+    offsetY: -15  // 向上偏移
+});
+</code></pre>
+
+<h3>样式函数</h3>
+<p>除了静态样式，OpenLayers还支持样式函数，可以根据要素属性动态设置样式：</p>
+
+<pre><code class="language-javascript">// 样式函数
+function styleFunction(feature, resolution) {
+    const population = feature.get('population');
+    
+    let radius = 5;
+    if (population > 1000000) {
+        radius = 15;
+    } else if (population > 500000) {
+        radius = 10;
+    }
+    
+    return new Style({
+        image: new Circle({
+            radius: radius,
+            fill: new Fill({color: 'red'}),
+            stroke: new Stroke({color: 'black', width: 1})
+        }),
+        text: new Text({
+            text: population.toString(),
+            fill: new Fill({color: 'black'})
+        })
+    });
+}
+
+// 应用样式函数
+vectorLayer.setStyle(styleFunction);
+</code></pre>
+
+<h3>样式继承</h3>
+<p>子要素可以继承父要素的样式，但也可以覆盖特定属性：</p>
+
+<pre><code class="language-javascript">// 基础样式
+const baseStyle = new Style({
+    fill: new Fill({color: 'blue'}),
+    stroke: new Stroke({color: 'black', width: 1})
+});
+
+// 派生样式
+const highlightStyle = baseStyle.clone();
+highlightStyle.getFill().setColor('red');
+highlightStyle.getStroke().setWidth(3);
+</code></pre>
+
+<h3>性能优化建议</h3>
+<ul>
+    <li><strong>避免在渲染时创建新样式对象</strong>: 预创建样式对象或使用样式缓存</li>
+    <li><strong>使用样式函数时注意性能</strong>: 复杂计算可能影响渲染性能</li>
+    <li><strong>合理使用图层样式</strong>: 相同样式的要素可以共享样式对象</li>
+    <li><strong>考虑分辨率</strong>: 在不同缩放级别使用不同复杂度的样式</li>
+</ul>
+
+<div class="note">
+    <strong>提示：</strong>样式的详细API文档请参考OpenLayers官方文档。样式配置是地图可视化效果的关键，合理使用可以大大提升地图的专业性和可读性。
+</div>
+
+<div class="page-break"></div>
+
+<h3>高级功能</h3>
+
+<h4>地图控件</h4>
+<p>添加交互控件增强用户体验：</p>
+
+<ul>
+    <li><strong>缩放控件</strong>: 放大缩小地图</li>
+    <li><strong>全屏控件</strong>: 全屏显示地图</li>
+    <li><strong>比例尺控件</strong>: 显示地图比例尺</li>
+</ul>
+
+<h4>事件处理</h4>
+<p>响应用户交互事件：</p>
+
+<pre><code class="language-javascript">map.on('click', function(evt) {
+    const coordinate = evt.coordinate;
+    console.log('点击坐标:', coordinate);
+});
+</code></pre>
+
+<h4>投影转换</h4>
+<p>在不同坐标系统之间转换：</p>
+
+<pre><code class="language-javascript">import { transform } from 'ol/proj';
+
+// WGS84转Web墨卡托
+const mercatorCoord = transform([longitude, latitude], 'EPSG:4326', 'EPSG:3857');
+</code></pre>
+
+<div class="page-break"></div>
+
+<h2 id="faq">常见问题</h2>
+
+<h3>地图显示问题</h3>
+
+<h4>地图不显示或显示空白</h4>
+<div class="warning">
+    <strong>可能原因：</strong>
+    <ul>
+        <li>网络连接问题</li>
+        <li>地图服务不可用</li>
+        <li>CSS样式冲突</li>
+        <li>JavaScript错误</li>
+    </ul>
+</div>
+
+<p><strong>解决方法：</strong></p>
+<ol>
+    <li>检查网络连接</li>
+    <li>查看浏览器控制台错误信息</li>
+    <li>确保地图容器有明确的宽高</li>
+    <li>尝试使用不同的地图服务</li>
+</ol>
+
+<h4>地图加载缓慢</h4>
+<p><strong>优化建议：</strong></p>
+<ul>
+    <li>使用矢量切片替代栅格瓦片</li>
+    <li>设置合适的瓦片缓存</li>
+    <li>限制同时加载的图层数量</li>
+</ul>
+
+<h3>功能使用问题</h3>
+
+<h4>图层无法加载</h4>
+<p><strong>检查项目：</strong></p>
+<ul>
+    <li>服务URL是否正确</li>
+    <li>是否存在跨域限制</li>
+    <li>数据格式是否匹配</li>
+</ul>
+
+<h4>样式不生效</h4>
+<p><strong>注意事项：</strong></p>
+<ul>
+    <li>确保样式对象正确创建</li>
+    <li>检查样式属性名称是否正确</li>
+    <li>确认图层已设置样式</li>
+</ul>
+
+<h3>开发环境问题</h3>
+
+<h4>npm安装失败</h4>
+<p><strong>解决方案：</strong></p>
+<ul>
+    <li>清除npm缓存：<code>npm cache clean --force</code></li>
+    <li>使用cnpm：<code>npm install -g cnpm --registry=https://registry.npm.taobao.org</code></li>
+    <li>检查Node.js版本</li>
+</ul>
+
+<h4>开发服务器启动失败</h4>
+<p><strong>常见原因：</strong></p>
+<ul>
+    <li>端口被占用</li>
+    <li>依赖未正确安装</li>
+</ul>
+
+<p><strong>解决方法：</strong></p>
+<ul>
+    <li>更换端口：<code>npm run dev -- --port 3000</code></li>
+    <li>重新安装依赖</li>
+</ul>
+
+<div class="page-break"></div>
+
+<h2 id="support">技术支持</h2>
+
+<h3>获取帮助</h3>
+<p>如果您在使用过程中遇到问题，可以通过以下方式获取帮助：</p>
+
+<ul>
+    <li><strong>官方文档</strong>: 访问系统内置的帮助文档</li>
+    <li><strong>社区论坛</strong>: 加入OpenLayers中文社区</li>
+    <li><strong>GitHub Issues</strong>: 在项目仓库提交问题</li>
+</ul>
+
+<h3>联系我们</h3>
+<ul>
+    <li><strong>邮箱</strong>: support@openlayers-tutorial.com</li>
+    <li><strong>微信群</strong>: 扫描二维码加入技术交流群</li>
+    <li><strong>官方网站</strong>: https://openlayers-tutorial.com</li>
+</ul>
+
+<h3>反馈建议</h3>
+<p>我们非常重视您的反馈意见。如果您有任何建议或发现bug，请及时联系我们。</p>
+
+<div class="note">
+    <strong>版本更新：</strong>系统会定期发布更新版本，包含新功能和bug修复。请关注我们的更新通知。
+</div>
+
+<p><em>感谢您选择OpenLayers 实战笔记系统！</em></p>
+
+</body>
+</html>
