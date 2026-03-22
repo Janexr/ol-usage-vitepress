@@ -32,11 +32,15 @@ jobs:
       - name: Install dependencies and build
         run: |
           set -e
-          npm ci --loglevel=info
+          echo "Forcing npm registry to public npmjs.org to avoid internal registry timeouts"
+          npm config set registry https://registry.npmjs.org/
+          npm config get registry
+          echo "Installing dependencies (with retries)"
+          npm ci --loglevel=info --registry=https://registry.npmjs.org/ --fetch-retries=5 --fetch-retry-factor=2
           echo "Checking if vitepress is installed in node_modules..."
           if [ ! -d node_modules/vitepress ]; then
             echo "vitepress not found — installing vitepress locally"
-            npm install vitepress --no-audit --no-fund --no-optional
+            npm install vitepress --no-audit --no-fund --no-optional --registry=https://registry.npmjs.org/
           else
             echo "vitepress found in node_modules"
           fi
