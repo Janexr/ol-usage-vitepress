@@ -29,10 +29,18 @@ jobs:
           cache: npm
       - name: Setup Pages
         uses: actions/configure-pages@v4
-      - name: Install dependencies
-        run: npm ci
-      - name: Build with VitePress (use npx to ensure binary available)
-        run: npx vitepress build docs
+      - name: Install dependencies and build
+        run: |
+          set -e
+          npm ci --loglevel=info
+          echo "Checking if vitepress is installed in node_modules..."
+          if [ ! -d node_modules/vitepress ]; then
+            echo "vitepress not found — installing vitepress locally"
+            npm install vitepress --no-audit --no-fund --no-optional
+          else
+            echo "vitepress found in node_modules"
+          fi
+          npm run docs:build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
