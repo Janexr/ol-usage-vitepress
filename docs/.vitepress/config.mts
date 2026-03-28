@@ -3,6 +3,7 @@ import { vitepressDemoPlugin } from "vitepress-demo-plugin";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+    base: '/ol-usage-vitepress/',
     title: "OpenLayers 实战笔记",
     description: "OpenLayers 使用手册",
     outDir: "dist",
