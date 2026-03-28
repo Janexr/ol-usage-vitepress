@@ -1,58 +1,28 @@
 import {
-  defaults
-} from "./chunk-KIV33VCG.js";
-import {
-  EventType_default as EventType_default3
-} from "./chunk-37RLHV32.js";
-import {
-  MapEventType_default
-} from "./chunk-3PFAS4PY.js";
-import {
   TileQueue_default,
   VectorRenderTile_default,
   VectorTile_default,
   getTilePriority
-} from "./chunk-Z7EAP7KG.js";
+} from "./chunk-CX2MC4AV.js";
 import {
   Graticule_default,
   GroupEvent,
   Group_default
-} from "./chunk-54SGYYYZ.js";
+} from "./chunk-6UMMLEGY.js";
 import {
   BaseVector_default
-} from "./chunk-ML4MEZEA.js";
-import "./chunk-7SCEBYM4.js";
-import "./chunk-MFXPZOOO.js";
+} from "./chunk-5EN6SPLI.js";
 import {
-  checkedFonts
-} from "./chunk-MA7WI6SH.js";
-import "./chunk-NUBOB5BQ.js";
-import {
-  CLASS_SELECTABLE,
-  CLASS_UNSELECTABLE
-} from "./chunk-OHQSNR5B.js";
-import "./chunk-PFA7TMZO.js";
-import "./chunk-TT3IKCPQ.js";
-import {
-  shared
-} from "./chunk-7AIK6VKS.js";
-import {
-  ImageCanvas_default
-} from "./chunk-IDN4LVTZ.js";
-import "./chunk-KXYH5LFF.js";
-import "./chunk-XEAAVIIE.js";
-import "./chunk-3D2QW432.js";
-import "./chunk-GMXRMESP.js";
-import "./chunk-ANMWXC5J.js";
-import {
-  Feature_default
-} from "./chunk-4IJB6CDS.js";
-import "./chunk-HOOHW46V.js";
+  ImageCanvas_default,
+  ImageTile_default,
+  TileRange_default,
+  Tile_default
+} from "./chunk-MKI7YDRR.js";
 import {
   CollectionEventType_default,
   Collection_default
-} from "./chunk-N3MPCU7Y.js";
-import "./chunk-NO2MWWAA.js";
+} from "./chunk-A6XBIBFF.js";
+import "./chunk-XEAAVIIE.js";
 import {
   EventType_default as EventType_default2,
   Event_default as Event_default2,
@@ -60,91 +30,55 @@ import {
   ViewHint_default,
   View_default,
   disable,
-  inView
-} from "./chunk-ZAKSJE5R.js";
-import {
-  Polygon_default,
-  circular
-} from "./chunk-HLZJE3SQ.js";
-import "./chunk-GXUNQOSG.js";
-import {
-  ImageTile_default,
-  Tile_default
-} from "./chunk-DMPADJIB.js";
-import {
-  apply,
-  compose,
-  create,
-  fromString,
-  makeInverse
-} from "./chunk-QNTJ3DWG.js";
-import {
   easeOut,
+  inView,
   linear
-} from "./chunk-4KE7ZZMY.js";
+} from "./chunk-VYWOCMPL.js";
+import "./chunk-XVKJHQAG.js";
+import "./chunk-WAA3B6TE.js";
 import {
-  ObjectEventType_default,
-  Object_default,
-  Observable_default
-} from "./chunk-3TDBTH4Z.js";
-import "./chunk-R3YTSN3I.js";
-import {
-  Image_default
-} from "./chunk-ZLDASJTB.js";
-import "./chunk-VZ44WO56.js";
-import {
-  DEVICE_PIXEL_RATIO,
-  MAC,
-  PASSIVE_EVENT_LISTENERS,
-  WEBKIT,
-  WORKER_OFFSCREEN_CANVAS,
-  createMockDiv,
-  isCanvas,
-  outerHeight,
-  outerWidth,
-  removeChildren,
-  replaceChildren
-} from "./chunk-CQSQHIAW.js";
-import {
-  Disposable_default,
-  EventType_default,
-  Event_default,
-  FALSE,
-  TRUE,
-  Target_default,
-  listen,
-  unlistenByKey
-} from "./chunk-HGYYXZHI.js";
-import {
-  TileRange_default
-} from "./chunk-VM3VPHRP.js";
-import "./chunk-PC3WH4C4.js";
-import "./chunk-RULOKQJT.js";
+  CLASS_COLLAPSED,
+  CLASS_CONTROL,
+  CLASS_HIDDEN,
+  CLASS_SELECTABLE,
+  CLASS_UNSELECTABLE,
+  checkedFonts
+} from "./chunk-TGKQAGE5.js";
+import "./chunk-7733P3K6.js";
+import "./chunk-N2OH7XUO.js";
+import "./chunk-ANMWXC5J.js";
 import {
   hasArea
 } from "./chunk-MIU3C343.js";
 import {
-  assert
-} from "./chunk-LH2JJVHM.js";
+  Feature_default
+} from "./chunk-Y6LH7W3J.js";
+import "./chunk-SR3DL3IL.js";
 import {
-  VERSION,
-  abstract,
-  equals,
-  getUid
-} from "./chunk-6FN5SU5B.js";
+  shared
+} from "./chunk-JD2F4MDD.js";
+import {
+  Polygon_default,
+  circular
+} from "./chunk-MQCDC2CV.js";
+import "./chunk-BEO3LXRP.js";
+import "./chunk-BDLH7E2M.js";
+import "./chunk-PFA7TMZO.js";
+import "./chunk-P36OZESH.js";
+import {
+  Image_default
+} from "./chunk-P2PMZYWL.js";
 import {
   fromUserCoordinate,
   get,
   getTransformFromProjections,
   identityTransform,
-  toUserCoordinate,
-  warn
-} from "./chunk-6S56XEW4.js";
-import {
   rotate,
   scale,
+  toUserCoordinate,
+  warn,
   wrapX
-} from "./chunk-M2RMMZWM.js";
+} from "./chunk-5Z3SYHAJ.js";
 import "./chunk-4ECMYQ5L.js";
 import {
   clone,
@@ -156,10 +90,55 @@ import {
   isEmpty
 } from "./chunk-ZIXKWDZQ.js";
 import {
+  ObjectEventType_default,
+  Object_default,
+  Observable_default
+} from "./chunk-SY5ADKQC.js";
+import {
+  DEVICE_PIXEL_RATIO,
+  MAC,
+  PASSIVE_EVENT_LISTENERS,
+  WEBKIT,
+  WORKER_OFFSCREEN_CANVAS,
+  createMockDiv,
+  isCanvas,
+  outerHeight,
+  outerWidth,
+  removeChildren,
+  replaceChildren,
+  replaceNode
+} from "./chunk-QVXFE4AO.js";
+import {
   clamp,
   toRadians
 } from "./chunk-2C5TUXEP.js";
+import {
+  Disposable_default,
+  EventType_default,
+  Event_default,
+  FALSE,
+  TRUE,
+  Target_default,
+  VERSION,
+  VOID,
+  abstract,
+  equals,
+  getUid,
+  listen,
+  toPromise,
+  unlistenByKey
+} from "./chunk-PE3P2AOM.js";
 import "./chunk-JRSNWQYY.js";
+import {
+  apply,
+  compose,
+  create,
+  fromString,
+  makeInverse
+} from "./chunk-QNTJ3DWG.js";
+import {
+  assert
+} from "./chunk-LH2JJVHM.js";
 import "./chunk-DC5AMYBS.js";
 
 // node_modules/ol/Geolocation.js
@@ -666,6 +645,18 @@ var MapBrowserEventType_default = {
   POINTERCANCEL: "pointercancel"
 };
 
+// node_modules/ol/pointer/EventType.js
+var EventType_default3 = {
+  POINTERMOVE: "pointermove",
+  POINTERDOWN: "pointerdown",
+  POINTERUP: "pointerup",
+  POINTEROVER: "pointerover",
+  POINTEROUT: "pointerout",
+  POINTERENTER: "pointerenter",
+  POINTERLEAVE: "pointerleave",
+  POINTERCANCEL: "pointercancel"
+};
+
 // node_modules/ol/MapBrowserEventHandler.js
 var MapBrowserEventHandler = class extends Target_default {
   /**
@@ -946,6 +937,40 @@ var MapBrowserEventHandler = class extends Target_default {
 };
 var MapBrowserEventHandler_default = MapBrowserEventHandler;
 
+// node_modules/ol/MapEventType.js
+var MapEventType_default = {
+  /**
+   * Triggered after a map frame is rendered.
+   * @event module:ol/MapEvent~MapEvent#postrender
+   * @api
+   */
+  POSTRENDER: "postrender",
+  /**
+   * Triggered when the map starts moving.
+   * @event module:ol/MapEvent~MapEvent#movestart
+   * @api
+   */
+  MOVESTART: "movestart",
+  /**
+   * Triggered after the map is moved.
+   * @event module:ol/MapEvent~MapEvent#moveend
+   * @api
+   */
+  MOVEEND: "moveend",
+  /**
+   * Triggered when loading of additional map data (tiles, images, features) starts.
+   * @event module:ol/MapEvent~MapEvent#loadstart
+   * @api
+   */
+  LOADSTART: "loadstart",
+  /**
+   * Triggered when loading of additional map data has completed.
+   * @event module:ol/MapEvent~MapEvent#loadend
+   * @api
+   */
+  LOADEND: "loadend"
+};
+
 // node_modules/ol/MapProperty.js
 var MapProperty_default = {
   LAYERGROUP: "layergroup",
@@ -953,6 +978,512 @@ var MapProperty_default = {
   TARGET: "target",
   VIEW: "view"
 };
+
+// node_modules/ol/control/Control.js
+var Control = class extends Object_default {
+  /**
+   * @param {Options} options Control options.
+   */
+  constructor(options) {
+    super();
+    const element = options.element;
+    if (element && !options.target && !element.style.pointerEvents) {
+      element.style.pointerEvents = "auto";
+    }
+    this.element = element ? element : null;
+    this.target_ = null;
+    this.map_ = null;
+    this.listenerKeys = [];
+    if (options.render) {
+      this.render = options.render;
+    }
+    if (options.target) {
+      this.setTarget(options.target);
+    }
+  }
+  /**
+   * Clean up.
+   * @override
+   */
+  disposeInternal() {
+    var _a;
+    (_a = this.element) == null ? void 0 : _a.remove();
+    super.disposeInternal();
+  }
+  /**
+   * Get the map associated with this control.
+   * @return {import("../Map.js").default|null} Map.
+   * @api
+   */
+  getMap() {
+    return this.map_;
+  }
+  /**
+   * Remove the control from its current map and attach it to the new map.
+   * Pass `null` to just remove the control from the current map.
+   * Subclasses may set up event handlers to get notified about changes to
+   * the map here.
+   * @param {import("../Map.js").default|null} map Map.
+   * @api
+   */
+  setMap(map) {
+    var _a;
+    if (this.map_) {
+      (_a = this.element) == null ? void 0 : _a.remove();
+    }
+    for (let i = 0, ii = this.listenerKeys.length; i < ii; ++i) {
+      unlistenByKey(this.listenerKeys[i]);
+    }
+    this.listenerKeys.length = 0;
+    this.map_ = map;
+    if (map) {
+      const target = this.target_ ?? map.getOverlayContainerStopEvent();
+      if (this.element) {
+        target.appendChild(this.element);
+      }
+      if (this.render !== VOID) {
+        this.listenerKeys.push(
+          listen(map, MapEventType_default.POSTRENDER, this.render, this)
+        );
+      }
+      map.render();
+    }
+  }
+  /**
+   * Renders the control.
+   * @param {import("../MapEvent.js").default} mapEvent Map event.
+   * @api
+   */
+  render(mapEvent) {
+  }
+  /**
+   * This function is used to set a target element for the control. It has no
+   * effect if it is called after the control has been added to the map (i.e.
+   * after `setMap` is called on the control). If no `target` is set in the
+   * options passed to the control constructor and if `setTarget` is not called
+   * then the control is added to the map's overlay container.
+   * @param {HTMLElement|string} target Target.
+   * @api
+   */
+  setTarget(target) {
+    this.target_ = typeof target === "string" ? document.getElementById(target) : target;
+  }
+};
+var Control_default = Control;
+
+// node_modules/ol/control/Attribution.js
+var Attribution = class extends Control_default {
+  /**
+   * @param {Options} [options] Attribution options.
+   */
+  constructor(options) {
+    options = options ? options : {};
+    super({
+      element: document.createElement("div"),
+      render: options.render,
+      target: options.target
+    });
+    this.ulElement_ = document.createElement("ul");
+    this.collapsed_ = options.collapsed !== void 0 ? options.collapsed : true;
+    this.userCollapsed_ = this.collapsed_;
+    this.overrideCollapsible_ = options.collapsible !== void 0;
+    this.collapsible_ = options.collapsible !== void 0 ? options.collapsible : true;
+    if (!this.collapsible_) {
+      this.collapsed_ = false;
+    }
+    this.attributions_ = options.attributions;
+    const className = options.className !== void 0 ? options.className : "ol-attribution";
+    const tipLabel = options.tipLabel !== void 0 ? options.tipLabel : "Attributions";
+    const expandClassName = options.expandClassName !== void 0 ? options.expandClassName : className + "-expand";
+    const collapseLabel = options.collapseLabel !== void 0 ? options.collapseLabel : "›";
+    const collapseClassName = options.collapseClassName !== void 0 ? options.collapseClassName : className + "-collapse";
+    if (typeof collapseLabel === "string") {
+      this.collapseLabel_ = document.createElement("span");
+      this.collapseLabel_.textContent = collapseLabel;
+      this.collapseLabel_.className = collapseClassName;
+    } else {
+      this.collapseLabel_ = collapseLabel;
+    }
+    const label = options.label !== void 0 ? options.label : "i";
+    if (typeof label === "string") {
+      this.label_ = document.createElement("span");
+      this.label_.textContent = label;
+      this.label_.className = expandClassName;
+    } else {
+      this.label_ = label;
+    }
+    const activeLabel = this.collapsible_ && !this.collapsed_ ? this.collapseLabel_ : this.label_;
+    this.toggleButton_ = document.createElement("button");
+    this.toggleButton_.setAttribute("type", "button");
+    this.toggleButton_.setAttribute("aria-expanded", String(!this.collapsed_));
+    this.toggleButton_.title = tipLabel;
+    this.toggleButton_.appendChild(activeLabel);
+    this.toggleButton_.addEventListener(
+      EventType_default.CLICK,
+      this.handleClick_.bind(this),
+      false
+    );
+    const cssClasses = className + " " + CLASS_UNSELECTABLE + " " + CLASS_CONTROL + (this.collapsed_ && this.collapsible_ ? " " + CLASS_COLLAPSED : "") + (this.collapsible_ ? "" : " ol-uncollapsible");
+    const element = this.element;
+    element.className = cssClasses;
+    element.appendChild(this.toggleButton_);
+    element.appendChild(this.ulElement_);
+    this.renderedAttributions_ = [];
+    this.renderedVisible_ = true;
+  }
+  /**
+   * Collect a list of visible attributions and set the collapsible state.
+   * @param {import("../Map.js").FrameState} frameState Frame state.
+   * @return {Array<string>} Attributions.
+   * @private
+   */
+  collectSourceAttributions_(frameState) {
+    const layers = this.getMap().getAllLayers();
+    const visibleAttributions = new Set(
+      layers.flatMap((layer) => layer.getAttributions(frameState))
+    );
+    if (this.attributions_ !== void 0) {
+      Array.isArray(this.attributions_) ? this.attributions_.forEach((item) => visibleAttributions.add(item)) : visibleAttributions.add(this.attributions_);
+    }
+    if (!this.overrideCollapsible_) {
+      const collapsible = !layers.some(
+        (layer) => {
+          var _a;
+          return ((_a = layer.getSource()) == null ? void 0 : _a.getAttributionsCollapsible()) === false;
+        }
+      );
+      this.setCollapsible(collapsible);
+    }
+    return Array.from(visibleAttributions);
+  }
+  /**
+   * @private
+   * @param {?import("../Map.js").FrameState} frameState Frame state.
+   */
+  async updateElement_(frameState) {
+    if (!frameState) {
+      if (this.renderedVisible_) {
+        this.element.style.display = "none";
+        this.renderedVisible_ = false;
+      }
+      return;
+    }
+    const attributions = await Promise.all(
+      this.collectSourceAttributions_(frameState).map(
+        (attribution) => toPromise(() => attribution)
+      )
+    );
+    const visible = attributions.length > 0;
+    if (this.renderedVisible_ != visible) {
+      this.element.style.display = visible ? "" : "none";
+      this.renderedVisible_ = visible;
+    }
+    if (equals(attributions, this.renderedAttributions_)) {
+      return;
+    }
+    removeChildren(this.ulElement_);
+    for (let i = 0, ii = attributions.length; i < ii; ++i) {
+      const element = document.createElement("li");
+      element.innerHTML = attributions[i];
+      this.ulElement_.appendChild(element);
+    }
+    this.renderedAttributions_ = attributions;
+  }
+  /**
+   * @param {MouseEvent} event The event to handle
+   * @private
+   */
+  handleClick_(event) {
+    event.preventDefault();
+    this.handleToggle_();
+    this.userCollapsed_ = this.collapsed_;
+  }
+  /**
+   * @private
+   */
+  handleToggle_() {
+    this.element.classList.toggle(CLASS_COLLAPSED);
+    if (this.collapsed_) {
+      replaceNode(this.collapseLabel_, this.label_);
+    } else {
+      replaceNode(this.label_, this.collapseLabel_);
+    }
+    this.collapsed_ = !this.collapsed_;
+    this.toggleButton_.setAttribute("aria-expanded", String(!this.collapsed_));
+  }
+  /**
+   * Return `true` if the attribution is collapsible, `false` otherwise.
+   * @return {boolean} True if the widget is collapsible.
+   * @api
+   */
+  getCollapsible() {
+    return this.collapsible_;
+  }
+  /**
+   * Set whether the attribution should be collapsible.
+   * @param {boolean} collapsible True if the widget is collapsible.
+   * @api
+   */
+  setCollapsible(collapsible) {
+    if (this.collapsible_ === collapsible) {
+      return;
+    }
+    this.collapsible_ = collapsible;
+    this.element.classList.toggle("ol-uncollapsible");
+    if (this.userCollapsed_) {
+      this.handleToggle_();
+    }
+  }
+  /**
+   * Collapse or expand the attribution according to the passed parameter. Will
+   * not do anything if the attribution isn't collapsible or if the current
+   * collapsed state is already the one requested.
+   * @param {boolean} collapsed True if the widget is collapsed.
+   * @api
+   */
+  setCollapsed(collapsed) {
+    this.userCollapsed_ = collapsed;
+    if (!this.collapsible_ || this.collapsed_ === collapsed) {
+      return;
+    }
+    this.handleToggle_();
+  }
+  /**
+   * Return `true` when the attribution is currently collapsed or `false`
+   * otherwise.
+   * @return {boolean} True if the widget is collapsed.
+   * @api
+   */
+  getCollapsed() {
+    return this.collapsed_;
+  }
+  /**
+   * Update the attribution element.
+   * @param {import("../MapEvent.js").default} mapEvent Map event.
+   * @override
+   */
+  render(mapEvent) {
+    this.updateElement_(mapEvent.frameState);
+  }
+};
+var Attribution_default = Attribution;
+
+// node_modules/ol/control/Rotate.js
+var Rotate = class extends Control_default {
+  /**
+   * @param {Options} [options] Rotate options.
+   */
+  constructor(options) {
+    options = options ? options : {};
+    super({
+      element: document.createElement("div"),
+      render: options.render,
+      target: options.target
+    });
+    const className = options.className !== void 0 ? options.className : "ol-rotate";
+    const label = options.label !== void 0 ? options.label : "⇧";
+    const compassClassName = options.compassClassName !== void 0 ? options.compassClassName : "ol-compass";
+    this.label_ = null;
+    if (typeof label === "string") {
+      this.label_ = document.createElement("span");
+      this.label_.className = compassClassName;
+      this.label_.textContent = label;
+    } else {
+      this.label_ = label;
+      this.label_.classList.add(compassClassName);
+    }
+    const tipLabel = options.tipLabel ? options.tipLabel : "Reset rotation";
+    const button = document.createElement("button");
+    button.className = className + "-reset";
+    button.setAttribute("type", "button");
+    button.title = tipLabel;
+    button.appendChild(this.label_);
+    button.addEventListener(
+      EventType_default.CLICK,
+      this.handleClick_.bind(this),
+      false
+    );
+    const cssClasses = className + " " + CLASS_UNSELECTABLE + " " + CLASS_CONTROL;
+    const element = this.element;
+    element.className = cssClasses;
+    element.appendChild(button);
+    this.callResetNorth_ = options.resetNorth ? options.resetNorth : void 0;
+    this.duration_ = options.duration !== void 0 ? options.duration : 250;
+    this.autoHide_ = options.autoHide !== void 0 ? options.autoHide : true;
+    this.rotation_ = void 0;
+    if (this.autoHide_) {
+      this.element.classList.add(CLASS_HIDDEN);
+    }
+  }
+  /**
+   * @param {MouseEvent} event The event to handle
+   * @private
+   */
+  handleClick_(event) {
+    event.preventDefault();
+    if (this.callResetNorth_ !== void 0) {
+      this.callResetNorth_();
+    } else {
+      this.resetNorth_();
+    }
+  }
+  /**
+   * @private
+   */
+  resetNorth_() {
+    const map = this.getMap();
+    const view = map.getView();
+    if (!view) {
+      return;
+    }
+    const rotation = view.getRotation();
+    if (rotation !== void 0) {
+      if (this.duration_ > 0 && rotation % (2 * Math.PI) !== 0) {
+        view.animate({
+          rotation: 0,
+          duration: this.duration_,
+          easing: easeOut
+        });
+      } else {
+        view.setRotation(0);
+      }
+    }
+  }
+  /**
+   * Update the rotate control element.
+   * @param {import("../MapEvent.js").default} mapEvent Map event.
+   * @override
+   */
+  render(mapEvent) {
+    const frameState = mapEvent.frameState;
+    if (!frameState) {
+      return;
+    }
+    const rotation = frameState.viewState.rotation;
+    if (rotation != this.rotation_) {
+      const transform = "rotate(" + rotation + "rad)";
+      if (this.autoHide_) {
+        const contains = this.element.classList.contains(CLASS_HIDDEN);
+        if (!contains && rotation === 0) {
+          this.element.classList.add(CLASS_HIDDEN);
+        } else if (contains && rotation !== 0) {
+          this.element.classList.remove(CLASS_HIDDEN);
+        }
+      }
+      this.label_.style.transform = transform;
+    }
+    this.rotation_ = rotation;
+  }
+};
+var Rotate_default = Rotate;
+
+// node_modules/ol/control/Zoom.js
+var Zoom = class extends Control_default {
+  /**
+   * @param {Options} [options] Zoom options.
+   */
+  constructor(options) {
+    options = options ? options : {};
+    super({
+      element: document.createElement("div"),
+      target: options.target
+    });
+    const className = options.className !== void 0 ? options.className : "ol-zoom";
+    const delta = options.delta !== void 0 ? options.delta : 1;
+    const zoomInClassName = options.zoomInClassName !== void 0 ? options.zoomInClassName : className + "-in";
+    const zoomOutClassName = options.zoomOutClassName !== void 0 ? options.zoomOutClassName : className + "-out";
+    const zoomInLabel = options.zoomInLabel !== void 0 ? options.zoomInLabel : "+";
+    const zoomOutLabel = options.zoomOutLabel !== void 0 ? options.zoomOutLabel : "–";
+    const zoomInTipLabel = options.zoomInTipLabel !== void 0 ? options.zoomInTipLabel : "Zoom in";
+    const zoomOutTipLabel = options.zoomOutTipLabel !== void 0 ? options.zoomOutTipLabel : "Zoom out";
+    const inElement = document.createElement("button");
+    inElement.className = zoomInClassName;
+    inElement.setAttribute("type", "button");
+    inElement.title = zoomInTipLabel;
+    inElement.appendChild(
+      typeof zoomInLabel === "string" ? document.createTextNode(zoomInLabel) : zoomInLabel
+    );
+    inElement.addEventListener(
+      EventType_default.CLICK,
+      this.handleClick_.bind(this, delta),
+      false
+    );
+    const outElement = document.createElement("button");
+    outElement.className = zoomOutClassName;
+    outElement.setAttribute("type", "button");
+    outElement.title = zoomOutTipLabel;
+    outElement.appendChild(
+      typeof zoomOutLabel === "string" ? document.createTextNode(zoomOutLabel) : zoomOutLabel
+    );
+    outElement.addEventListener(
+      EventType_default.CLICK,
+      this.handleClick_.bind(this, -delta),
+      false
+    );
+    const cssClasses = className + " " + CLASS_UNSELECTABLE + " " + CLASS_CONTROL;
+    const element = this.element;
+    element.className = cssClasses;
+    element.appendChild(inElement);
+    element.appendChild(outElement);
+    this.duration_ = options.duration !== void 0 ? options.duration : 250;
+  }
+  /**
+   * @param {number} delta Zoom delta.
+   * @param {MouseEvent} event The event to handle
+   * @private
+   */
+  handleClick_(delta, event) {
+    event.preventDefault();
+    this.zoomByDelta_(delta);
+  }
+  /**
+   * @param {number} delta Zoom delta.
+   * @private
+   */
+  zoomByDelta_(delta) {
+    const map = this.getMap();
+    const view = map.getView();
+    if (!view) {
+      return;
+    }
+    const currentZoom = view.getZoom();
+    if (currentZoom !== void 0) {
+      const newZoom = view.getConstrainedZoom(currentZoom + delta);
+      if (this.duration_ > 0) {
+        if (view.getAnimating()) {
+          view.cancelAnimations();
+        }
+        view.animate({
+          zoom: newZoom,
+          duration: this.duration_,
+          easing: easeOut
+        });
+      } else {
+        view.setZoom(newZoom);
+      }
+    }
+  }
+};
+var Zoom_default = Zoom;
+
+// node_modules/ol/control/defaults.js
+function defaults(options) {
+  options = options ? options : {};
+  const controls = new Collection_default();
+  const zoomControl = options.zoom !== void 0 ? options.zoom : true;
+  if (zoomControl) {
+    controls.push(new Zoom_default(options.zoomOptions));
+  }
+  const rotateControl = options.rotate !== void 0 ? options.rotate : true;
+  if (rotateControl) {
+    controls.push(new Rotate_default(options.rotateOptions));
+  }
+  const attributionControl = options.attribution !== void 0 ? options.attribution : true;
+  if (attributionControl) {
+    controls.push(new Attribution_default(options.attributionOptions));
+  }
+  return controls;
+}
 
 // node_modules/ol/interaction/Property.js
 var Property_default = {

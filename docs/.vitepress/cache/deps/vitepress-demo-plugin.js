@@ -8239,12 +8239,12 @@ var bundledLanguagesInfo = [
   {
     "id": "angular-html",
     "name": "Angular HTML",
-    "import": () => import("./angular-html-A4OSPAXO.js")
+    "import": () => import("./angular-html-UNPOVVED.js")
   },
   {
     "id": "angular-ts",
     "name": "Angular TypeScript",
-    "import": () => import("./angular-ts-IUMSZFXX.js")
+    "import": () => import("./angular-ts-TNYUKKA4.js")
   },
   {
     "id": "apache",
@@ -8259,7 +8259,7 @@ var bundledLanguagesInfo = [
   {
     "id": "apl",
     "name": "APL",
-    "import": () => import("./apl-XA43NC3C.js")
+    "import": () => import("./apl-JRYJVOS3.js")
   },
   {
     "id": "applescript",
@@ -8287,7 +8287,7 @@ var bundledLanguagesInfo = [
   {
     "id": "astro",
     "name": "Astro",
-    "import": () => import("./astro-CKQ2ETLC.js")
+    "import": () => import("./astro-LYKTQPFH.js")
   },
   {
     "id": "awk",
@@ -8333,7 +8333,7 @@ var bundledLanguagesInfo = [
   {
     "id": "blade",
     "name": "Blade",
-    "import": () => import("./blade-5GTQRCCN.js")
+    "import": () => import("./blade-UDZNH2KZ.js")
   },
   {
     "id": "bsl",
@@ -8382,7 +8382,7 @@ var bundledLanguagesInfo = [
   {
     "id": "cobol",
     "name": "COBOL",
-    "import": () => import("./cobol-4WDMLCKP.js")
+    "import": () => import("./cobol-2JBYUIKZ.js")
   },
   {
     "id": "codeowners",
@@ -8429,7 +8429,7 @@ var bundledLanguagesInfo = [
   {
     "id": "crystal",
     "name": "Crystal",
-    "import": () => import("./crystal-HSJWAC7A.js")
+    "import": () => import("./crystal-KNNNVKGI.js")
   },
   {
     "id": "csharp",
@@ -8509,12 +8509,12 @@ var bundledLanguagesInfo = [
   {
     "id": "edge",
     "name": "Edge",
-    "import": () => import("./edge-3NMCRHFS.js")
+    "import": () => import("./edge-7MCEBXT5.js")
   },
   {
     "id": "elixir",
     "name": "Elixir",
-    "import": () => import("./elixir-OQ24VYT2.js")
+    "import": () => import("./elixir-FXHRNV2O.js")
   },
   {
     "id": "elm",
@@ -8532,7 +8532,7 @@ var bundledLanguagesInfo = [
   {
     "id": "erb",
     "name": "ERB",
-    "import": () => import("./erb-GZ6P6FYO.js")
+    "import": () => import("./erb-C36OJT3Z.js")
   },
   {
     "id": "erlang",
@@ -8637,7 +8637,7 @@ var bundledLanguagesInfo = [
     "aliases": [
       "gjs"
     ],
-    "import": () => import("./glimmer-js-N6B2J2DG.js")
+    "import": () => import("./glimmer-js-LXJFZLZJ.js")
   },
   {
     "id": "glimmer-ts",
@@ -8645,7 +8645,7 @@ var bundledLanguagesInfo = [
     "aliases": [
       "gts"
     ],
-    "import": () => import("./glimmer-ts-FOV4DN6O.js")
+    "import": () => import("./glimmer-ts-V54QPFIA.js")
   },
   {
     "id": "glsl",
@@ -8678,12 +8678,12 @@ var bundledLanguagesInfo = [
   {
     "id": "hack",
     "name": "Hack",
-    "import": () => import("./hack-ASJXZR53.js")
+    "import": () => import("./hack-WLHSWVRJ.js")
   },
   {
     "id": "haml",
     "name": "Ruby Haml",
-    "import": () => import("./haml-X45JLCCM.js")
+    "import": () => import("./haml-FBYMTHF7.js")
   },
   {
     "id": "handlebars",
@@ -8691,7 +8691,7 @@ var bundledLanguagesInfo = [
     "aliases": [
       "hbs"
     ],
-    "import": () => import("./handlebars-NDSVQ3F2.js")
+    "import": () => import("./handlebars-BAX6JDMK.js")
   },
   {
     "id": "haskell",
@@ -8724,17 +8724,17 @@ var bundledLanguagesInfo = [
   {
     "id": "html",
     "name": "HTML",
-    "import": () => import("./html-4TT6JCVN.js")
+    "import": () => import("./html-CXCYMXHW.js")
   },
   {
     "id": "html-derivative",
     "name": "HTML (Derivative)",
-    "import": () => import("./html-derivative-3I4FJAOC.js")
+    "import": () => import("./html-derivative-MV5534Q6.js")
   },
   {
     "id": "http",
     "name": "HTTP",
-    "import": () => import("./http-E4WI64S5.js")
+    "import": () => import("./http-A26XNXM6.js")
   },
   {
     "id": "hxml",
@@ -8775,7 +8775,7 @@ var bundledLanguagesInfo = [
   {
     "id": "jinja",
     "name": "Jinja",
-    "import": () => import("./jinja-KXYJLTD6.js")
+    "import": () => import("./jinja-6RXIUHCG.js")
   },
   {
     "id": "jison",
@@ -8826,7 +8826,7 @@ var bundledLanguagesInfo = [
     "aliases": [
       "jl"
     ],
-    "import": () => import("./julia-GX5WV5PY.js")
+    "import": () => import("./julia-7FDIMPNE.js")
   },
   {
     "id": "kotlin",
@@ -8866,7 +8866,7 @@ var bundledLanguagesInfo = [
   {
     "id": "liquid",
     "name": "Liquid",
-    "import": () => import("./liquid-MKV6BD44.js")
+    "import": () => import("./liquid-FME5GT7G.js")
   },
   {
     "id": "log",
@@ -8907,7 +8907,7 @@ var bundledLanguagesInfo = [
   {
     "id": "marko",
     "name": "Marko",
-    "import": () => import("./marko-QJDCOFYB.js")
+    "import": () => import("./marko-O5R2U5CI.js")
   },
   {
     "id": "matlab",
@@ -8917,7 +8917,7 @@ var bundledLanguagesInfo = [
   {
     "id": "mdc",
     "name": "MDC",
-    "import": () => import("./mdc-ALUGIMIJ.js")
+    "import": () => import("./mdc-IQYEXOVI.js")
   },
   {
     "id": "mdx",
@@ -8974,7 +8974,7 @@ var bundledLanguagesInfo = [
   {
     "id": "nim",
     "name": "Nim",
-    "import": () => import("./nim-OXUYHVIN.js")
+    "import": () => import("./nim-JBO34Q3F.js")
   },
   {
     "id": "nix",
@@ -9015,12 +9015,12 @@ var bundledLanguagesInfo = [
   {
     "id": "perl",
     "name": "Perl",
-    "import": () => import("./perl-4TATMGUX.js")
+    "import": () => import("./perl-ZXFOPCS6.js")
   },
   {
     "id": "php",
     "name": "PHP",
-    "import": () => import("./php-OVF4INP5.js")
+    "import": () => import("./php-SYUHLZHH.js")
   },
   {
     "id": "plsql",
@@ -9084,7 +9084,7 @@ var bundledLanguagesInfo = [
     "aliases": [
       "jade"
     ],
-    "import": () => import("./pug-5WGUQU5J.js")
+    "import": () => import("./pug-EILU4E2I.js")
   },
   {
     "id": "puppet",
@@ -9140,7 +9140,7 @@ var bundledLanguagesInfo = [
   {
     "id": "razor",
     "name": "ASP.NET Razor",
-    "import": () => import("./razor-22TLOIGX.js")
+    "import": () => import("./razor-BYHWLIDB.js")
   },
   {
     "id": "reg",
@@ -9168,7 +9168,7 @@ var bundledLanguagesInfo = [
   {
     "id": "rst",
     "name": "reStructuredText",
-    "import": () => import("./rst-AYKWJF2S.js")
+    "import": () => import("./rst-QOPUBS5W.js")
   },
   {
     "id": "ruby",
@@ -9176,7 +9176,7 @@ var bundledLanguagesInfo = [
     "aliases": [
       "rb"
     ],
-    "import": () => import("./ruby-7GXI3CRF.js")
+    "import": () => import("./ruby-T7TGWHZR.js")
   },
   {
     "id": "rust",
@@ -9262,7 +9262,7 @@ var bundledLanguagesInfo = [
     "aliases": [
       "closure-templates"
     ],
-    "import": () => import("./soy-B3HMUTX5.js")
+    "import": () => import("./soy-THU36CTD.js")
   },
   {
     "id": "sparql",
@@ -9303,7 +9303,7 @@ var bundledLanguagesInfo = [
   {
     "id": "svelte",
     "name": "Svelte",
-    "import": () => import("./svelte-4QFAETE5.js")
+    "import": () => import("./svelte-MPOCJTEJ.js")
   },
   {
     "id": "swift",
@@ -9341,7 +9341,7 @@ var bundledLanguagesInfo = [
   {
     "id": "templ",
     "name": "Templ",
-    "import": () => import("./templ-LZXAZVMW.js")
+    "import": () => import("./templ-SWAEAQBA.js")
   },
   {
     "id": "terraform",
@@ -9368,7 +9368,7 @@ var bundledLanguagesInfo = [
     "aliases": [
       "lit"
     ],
-    "import": () => import("./ts-tags-Q2JTRH2H.js")
+    "import": () => import("./ts-tags-B5DJNEJJ.js")
   },
   {
     "id": "tsv",
@@ -9388,7 +9388,7 @@ var bundledLanguagesInfo = [
   {
     "id": "twig",
     "name": "Twig",
-    "import": () => import("./twig-OGNMVGTE.js")
+    "import": () => import("./twig-IYMBTUO2.js")
   },
   {
     "id": "typescript",
@@ -9454,12 +9454,12 @@ var bundledLanguagesInfo = [
   {
     "id": "vue",
     "name": "Vue",
-    "import": () => import("./vue-AR4ISTCY.js")
+    "import": () => import("./vue-DS74RLPP.js")
   },
   {
     "id": "vue-html",
     "name": "Vue HTML",
-    "import": () => import("./vue-html-UCXI6FWM.js")
+    "import": () => import("./vue-html-KRQU4JGP.js")
   },
   {
     "id": "vyper",
