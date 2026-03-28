@@ -3,23 +3,23 @@
 layout: home
 
 hero:
-  name: "Openlayers 教程"
-  text: "Openlayers 使用手册"
+  name: "Openlayers 实战笔记"
+  text: "Openlayers 入门教程"
   # tagline: My great project tagline
-  actions:
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+#   actions:
+#     - theme: brand
+#       text: Markdown Examples
+#       link: /markdown-examples
+#     - theme: alt
+#       text: API Examples
+#       link: /api-examples
 
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
----
+# features:
+#   - title: Feature A
+#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+#   - title: Feature B
+#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+#   - title: Feature C
+#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+# ---
 
